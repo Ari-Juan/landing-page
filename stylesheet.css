@@ -41,10 +41,36 @@ body {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    gap: 25%;
     padding: 0;
+    gap:3%;
+    color: #ffffff;
   }
 
   .hero .left img {
-    width: 400px;
+    width: 350px;
+  }
+
+  .right h2 {
+    font-size: 48px;
+    margin: 0%;
+  }
+
+  .right .text1{
+    font-size: 18px;
+    max-width: 300px;
+    line-height: 20px;
+    padding: 0%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    color: #ffffff;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5%;
+    border: 0px;
   }
