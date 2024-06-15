@@ -22,8 +22,8 @@ ul {
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
+    overflow: scroll;
    
     
   }
@@ -44,10 +44,12 @@ body {
     padding: 0;
     gap:3%;
     color: #ffffff;
+    height: 300px;
+
   }
 
   .hero .left img {
-    width: 350px;
+    width: 300px;
   }
 
   .right h2 {
@@ -71,6 +73,40 @@ body {
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    border-radius: 5%;
+    border-radius: 6%;
     border: 0px;
+  }
+
+  /* random info part */ 
+
+  .products{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products .container{
+    text-align: center;
+    margin: 20px;
+      }
+
+  .products .container .imgs{
+    display: flex;
+    gap: 15px;
+  }
+
+  .products .container .imgs img {
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+
+    border-radius: 5%;
+    
+  }
+
+  html {
+    height: 100%;
+    margin: auto;
+    width: 960px;
+    overflow: scroll;
   }
